@@ -1,0 +1,78 @@
+/* 全選択
+* {
+  color: red;
+}
+
+属性に対して
+a[href] {
+  color: red;
+}
+
+部分文字列一致セレクター（全文一致）
+a[href="https://www.yahoo.com"] {
+  color: red;
+}
+
+部分文字列一致セレクター（部分一致）
+a[href*="yahoo"] {
+  color: red;
+}
+
+部分文字列一致セレクター（後方一致）
+a[href$=".com"] {
+  color: red;
+}
+
+擬似クラス
+article p:first-of-type {
+  color: red;
+}
+article p:first-child {
+  color: red;
+}
+article p:last-of-type {
+  color: red;
+}
+article p:nth-of-type(1) {
+  color: red;
+}
+article p:not(:first-of-type) {
+  color: red;
+}
+article p:hover {
+  color: red;
+}
+
+擬似要素
+h1::after {
+  content: !!!!!!!;
+}
+h1::before {
+  content: !!!!!!!;
+}
+
+子孫結合
+article p {
+  color: red;
+}
+
+子結合子
+main > h1 {
+  color: red;
+}
+
+隣接兄弟結合子
+article p + p {
+  margin-top: 40px;
+}
+
+一般兄弟結合子
+article h1 ~ p {
+  color: red;
+}
+
+ */
+
+* {
+  color: red;
+}
